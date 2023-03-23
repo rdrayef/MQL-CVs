@@ -1,4 +1,5 @@
 function loadCV(index = 0) {
+  console.log("Length: ", cvs.length);
   let cv = cvs[index];
   console.log(cv);
   let s = "";

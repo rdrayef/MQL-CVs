@@ -1,3 +1,4 @@
+/* Kawtar/Raouia/Wiam */
 let cvs = [
   {
     profile: {
@@ -124,8 +125,7 @@ let cvs = [
   },
   {
     profile: {
-      photo:
-        "https://thumbs.dreamstime.com/b/example-red-tag-example-red-square-price-tag-117502755.jpg",
+      photo: "",
       firstName: "Wiam",
       lastName: "Amlal",
       birthday: {
@@ -941,5 +941,1975 @@ let cvs = [
       },
     ],
     interests: ["Développement de jeux", "Sport : foot", "Voyage"],
+  },
+  {
+    profile: {
+      photo: "./images/MRABET Driss .png",
+      firstName: "Mrabet",
+      lastName: "Driss",
+      birthday: {
+        day: 29,
+        month: 08,
+        year: 2001,
+      },
+      phone: "0688-797564",
+      email: "mrabetdrs@gmail.com",
+      address: "AV ABI HOURAIRA 15 RUE HUNDORAS ZOHOUR 1 FES, Maroc.",
+      professionalSummary: ` I am currently a first-year student of master degree in software quality
+            in Morocco and have gained two professional experiences, the first
+            was with a small company named Taissir Soft and the second was with
+            an international company CGI. Proficient in Java's world and web development
+            ( back end and front end) and actually I master other languages like PHP, 
+            phyton and C# which belongs to the DotNet platform.
+        `,
+      links: [
+        "https://www.linkedin.com/in/driss-mrabet-144245251/",
+        "https://www.linkedin.com/in/driss-mrabet-144245251/",
+        "https://www.linkedin.com/in/driss-mrabet-144245251/",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2024,
+      },
+      {
+        diploma: "Licence SIGL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "DUT ID",
+        organisation: "EST - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2021,
+      },
+      {
+        diploma: "Lycée Technique",
+        organisation: "Baccalauréat STE - Fés",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Git", "GitHub", "Jira", "JUnit"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "CGI - Fès",
+        title: `Automatisation et Correction d'un écart des
+                    Chiffres d'affaires d'un magasin.`,
+        technologies: ["PL/SQL", "Transact SQL"],
+        year: 2022,
+        duration: "4 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "TAISSIR SOFT - Fès",
+        title: `Creation of a desktop application that
+                    manages and digitizes the management of
+                    mail movements (arrival, departure).`,
+        technologies: ["Java NetBeans", "MYSQL"],
+        year: 2021,
+        duration: "1 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Organisation",
+      "Gestion du Stress",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B2",
+        certification: "DELF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B2",
+        certification: "TOEFL",
+        experience: "",
+      },
+      {
+        language: "Arabe",
+        level: "C2",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Photographie", "Lecture", "Voyage", "Kick-boxing"],
+  },
+  {
+    profile: {
+      photo: "./images/EL FADIL MOHAMED.jpg",
+      firstName: "Mohamed",
+      lastName: "EL FADIL",
+      birthday: {
+        day: 15,
+        month: 09,
+        year: 2000,
+      },
+      phone: "+212 621897240",
+      email: "medelfadil193@gmail.com",
+      address: "Safi, Maroc",
+      professionalSummary: `Je suis actuellement en première année de master en MQL et je suis
+      titulaire d'une licence en Informatique (Métiers de l'informatique)
+      ainsi qu'un DUT dans l'informatique. Je suis passionné par le
+      développement de logiciels et je souhaite devenir un développeur
+      compétent dans une entreprise dynamique. J'ai hâte de rejoindre une
+      entreprise qui me permettra de mettre en pratique mes compétences en
+      programmation et de développer mes compétences techniques`,
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "Licence En Metier Informatique",
+        organisation:
+          "UCA - Ecole Supérieure de Technologie Safi de l'Université Cadi Ayyad - Safi",
+        year: 2021,
+      },
+      {
+        diploma: "DUT En Metier Informatique",
+        organisation:
+          "UCA - Ecole Supérieure de Technologie Safi de l'Université Cadi Ayyad - Safi",
+        year: 2020,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Maven", "Git", "GitHub", "GitLab"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "Concept les Fréres Safi",
+        title: "Réalisation d'une platfome web",
+        technologies: ["larval", "React"],
+        year: 2021,
+        duration: "4 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "Provincial Safi",
+        title: "Realisation d'une platfome web E-learning",
+        technologies: ["PHP", "HTML", "CSS"],
+        year: 2020,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "OCP MAROC,SAFI",
+        title: "Création d'une plateforme de gestion des réformes immobilières",
+        technologies: ["PHP", "HTML", "CSS"],
+        year: 2019,
+        duration: "1 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B2",
+        certification: "TCF",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+      },
+    ],
+    interests: ["Sport ", "Voyage"],
+  },
+  {
+    profile: {
+      photo: "./images/LAHYANI-DOUNIA.jpg",
+      firstName: "Dounia",
+      lastName: "Lahyani",
+      birthday: {
+        day: 13,
+        month: 06,
+        year: 2000,
+      },
+      phone: "06-43-33-05-53",
+      email: "Dounia.lahyani@hotmail.com",
+      address: "Kénitra",
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+           
+        `,
+      links: ["", "", ""],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2024,
+      },
+      {
+        diploma: "Licence professionnelles",
+        organisation: "Méthodes informatiques appliquées à la gestion",
+        year: 2022,
+      },
+      {
+        diploma: "Google certificate",
+        organisation: "Digital Marketing Fundamentals",
+        year: 2022,
+      },
+      {
+        diploma: "Brevet de technicien supérieur",
+        organisation: "Développement des systémes d'informations",
+        year: 2021,
+      },
+      {
+        diploma: "Baccalauréat",
+        organisation: "Science de la vie et de la terre",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+      {
+        skill: "Digital Marketing",
+        details: [
+          "Social Media Strategy",
+          "Content creation",
+          "Social Media Manager",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "Marjane Holding",
+        title: "Assistante du directeur des systémes d'informations",
+        technologies: ["Spring Boot", "React", "Node.js"],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "2HD négoce",
+        title: "Devellopeuse des applications mobile",
+        technologies: ["Java", "Android Studio"],
+        year: 2021,
+        duration: "2 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "GESHD",
+        title: "Application Desktop pour la gestion commerciale",
+        technologies: ["C#", "sql server", "Visual Studio 2019"],
+        year: 2022,
+        duration: "4 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "BTS",
+        title: "Application Web pour la gestion des rendez-vous au hopitaux",
+        technologies: ["Jakarta EE", "JAVA", "HTML/CSS/JavaScript"],
+        year: 2020,
+        duration: "5 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Intelligence Emotionnelle",
+      "Adaptabilité",
+      "Rigueur",
+      "Gestion du Stress",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "C1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "TCF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "C1",
+        certification: "TOEFL",
+        experience: "",
+      },
+    ],
+    interests: ["Infographie & Design", "Musique", "Dessin"],
+  },
+  {
+    profile: {
+      photo: "./images/moukhafi_anass.png",
+      firstName: "Anass",
+      lastName: "Moukhafi",
+      birthday: {
+        day: 18,
+        month: 10,
+        year: 1999,
+      },
+      phone: "+212 708-194943",
+      email: "moukhafi.anass@gmail.com",
+      address: "Etg 1 Batiment 7 Rue des F.A.R - FES",
+      professionalSummary: `
+        Ingénieur en informatique avec une bonne expérience 
+        sur les architectures logicielles et les nouvelles technologies informatique, 
+        en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+        Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+        avec des équipes multifonctionnelles. Disposant un sens de l'initiative et de résolution de problèmes 
+        avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+        et les membres de l'équipe.
+    `,
+      links: [
+        "github.com/adeniuobesu",
+        "twitter.com/moukhafi-anass",
+        "linkedin.com/in/moukhafi-anass",
+      ],
+    },
+    education: [
+      {
+        diploma: "Bac P.C - Sciences Physiques et Chimiques",
+        organisation: "Lycee Ibn Souda - Fès",
+        year: 2017,
+      },
+      {
+        diploma: "DEUST MIP - Mathématiques, Informatiques, Physiques",
+        organisation: "FSTF - Université Sidi Mohammed ben Abdellah  - Fès",
+        year: 2020,
+      },
+      {
+        diploma: "LST - Licence en Sciences et Techniques : Génie Informatique",
+        organisation: "FSTF - Université Sidi Mohammed ben Abdellah  - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "Master en Qualité du logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2024,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+      {
+        skill: "Bases de données",
+        details: ["Oracle", "MySQL", "PostgreSQL", "MongoDB"],
+      },
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "CHU - Fès",
+        title:
+          "Conception et développement d'une application de gestion des hospitalisations",
+        technologies: ["Java", "JavaFX", "FXML", "JDBC", "MySQL"],
+        year: 2021,
+        duration: "4 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "Optique MOUKHAFI - Fès",
+        title:
+          "Modélisation et développement d'une application pour la gestion d'un magasin optique",
+        technologies: ["Java", "JavaFX", "FXML", "Hibernate", "MySQL"],
+        year: 2021,
+        duration: "6 mois",
+      },
+    ],
+    softSkills: [
+      "Excellent Relationnel",
+      "Bonne organisation",
+      "Calme",
+      "Disponible",
+      "Attentionné",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B1",
+        certification: "TCF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+        certification: "TOEFL",
+        experience: "",
+      },
+    ],
+    interests: [
+      "Rondonnée et Trekking",
+      "Road trips à moto",
+      "La lecture",
+      "Le sport (Callisthénie, Course à pied)",
+    ],
+  },
+  {
+    profile: {
+      photo: "./images/OUCHTA-ISMAIL.jpg",
+      firstName: "Ismail",
+      lastName: "Ouchta",
+      birthday: {
+        day: 16,
+        month: 11,
+        year: 1999,
+      },
+      phone: "+212659821530",
+      email: "ismailouchta@gmail.com",
+      address: "41152, Chichaoua Maroc",
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot et React. 
+            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes et les membres de l'équipe.
+        `,
+      links: [
+        "https://www.github.com/ismailouchta",
+        "https://www.linkedin.com/in/ismail-ouchta-6a594026a",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master Spécialisé Qualité du Logiciel",
+        organisation: "FSDM Université Sidi Mohammed ben Abdellah | Fès",
+        year: 2024,
+      },
+      {
+        diploma:
+          "Licence Professionnelle Ingénierie des Systèmes d'information et Réseaux",
+        organisation: "EST Université Cadi Ayyad | Safi",
+        year: 2022,
+      },
+      {
+        diploma: "DUT en Génie informatique",
+        organisation: "EST Université Cadi Ayyad | Safi",
+        year: 2021,
+      },
+      {
+        diploma: "Baccalauréat Scientifique Spécialité Sciences Physiques",
+        organisation: "Ibn Rochd | Sidi Mokhtar",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "PHP"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+      {
+        skill: "Web services",
+        details: ["REST", "SOAP"],
+      },
+      {
+        skill: "Conception et Modélisation",
+        details: ["UML", "Merise"],
+      },
+      {
+        skill: "SGBD",
+        details: ["MySQL", "Oracle"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "Concept Les Frères. SARL | Safi",
+        title:
+          "Création d'une solution de détection de défauts basées sur l'IA dans la fabrication",
+        technologies: [
+          "OpenCV",
+          "Python",
+          "PyQT",
+          "PyTorch",
+          "NumPy",
+          "Tensorflow",
+        ],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "Direction Provinciale National Education | Chichaoua",
+        title:
+          "Conception et réalisation d'une application web de collaboration",
+        technologies: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Node.js",
+          "Express.js",
+          "TailWindCSS",
+        ],
+        year: 2021,
+        duration: "2 mois",
+      },
+    ],
+    softSkills: [
+      "Esprit d'équipe",
+      "Rigueur",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Organisation",
+    ],
+
+    languages: [
+      {
+        language: "Français",
+        level: "B1",
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B2",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Échecs", "Voyage", "Lecture"],
+  },
+  {
+    profile: {
+      photo: "./images/Sadouk Bouchra.jpeg",
+      firstName: "Bouchra",
+      lastName: "Sadouk",
+      birthday: {
+        day: 30,
+        month: 09,
+        year: 2000,
+      },
+      phone: "0652064501",
+      email: "br.sadouk@gmail.com",
+      address: "55 Av Youmne Narjis D 30000, Fès",
+      professionalSummary: `Ingénieure en informatique avec une bonne expérience 
+                sur les architectures logicielles et les nouvelles technologies informatique.
+            `,
+      links: ["http://linkedin.com/in/bouchra-sadouk"],
+    },
+    education: [
+      {
+        diploma: "Master Spécialisé Qualité du Logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2024,
+      },
+      {
+        diploma:
+          "Licence Fondamentale en Sciences Mathématiques et Informatique",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "Deug en Sciences Mathématiques et Informatique",
+        organisation: "FSDM  - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2021,
+      },
+      {
+        diploma: "Baccalauréat en sciences mathématiques A",
+        organisation: "Lycée El Mansour Dahbi",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "PHP"],
+      },
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Git", "GitHub", "JUnit"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+      {
+        skill: "Bases de données",
+        details: ["Oracle", "MySQL"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title:
+          "Réalisation d'une application JavaFX de K-Means et Arbre de décision",
+        technologies: ["Java", "JavaFX", "Weka API"],
+        year: 2022,
+        duration: "3 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: "Réalisation d'une application JavaFX de gestion des stagières",
+        technologies: [
+          "PHP",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Bootstrap",
+          "JQuery",
+        ],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: "Réalisation d'une application de e-commerce",
+        technologies: ["PHP", "HTML", "CSS", "JavaScript", "XML"],
+        year: 2022,
+        duration: "2 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Capacité d’adaptation",
+      "Prise d’initiatives",
+      "Créativité",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "",
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Arabe",
+        level: "",
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Voyage", "Photographie", "Sport"],
+  },
+  {
+    profile: {
+      photo: "./images/SAYIH_Hamza.jpg",
+      firstName: "Hamza",
+      lastName: "Sayih",
+      birthday: {
+        day: 11,
+        month: 11,
+        year: 2000,
+      },
+      phone: "+212690899969",
+      email: "esayihhamza@gmail.com",
+      address: "Massira,fes",
+      professionalSummary: ` Candidat organisé et fiable avec une attitude positive et un esprit
+      d'équipe, j'ai une base solide en mathématiques, en logique et en
+      codage cross-plateforme, cherchant à tirer parti de solides
+      compétences en collaboration, communication et développement.
+              `,
+      links: [
+        "https://www.linkedin.com/in/sayihhamza",
+        "https://github.com/sayihhamza",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2024,
+      },
+      {
+        diploma: "Licence SMI",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "BAC PC",
+        organisation: "Lycee Abdlkrim daoudi - Fès",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "E-AMBITION",
+        title: "Developpeur Front-end",
+        technologies: ["Spring Boot", "React", "Node.js"],
+        year: 2022,
+        duration: "4 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: "Developpeur FullStack",
+        technologies: ["React", "Node.js"],
+        year: 2022,
+        duration: "3 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Rigueur",
+      "Organisation",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "A1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "DELF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B2",
+        certification: "TOEFL",
+        experience: "",
+      },
+    ],
+    interests: ["Chess", "Food", "League of Legends"],
+  },
+  {
+    profile: {
+      photo: "./images/SLimani Mouhcine.jpg",
+      firstName: "Mouhcine",
+      lastName: "Slimani",
+      birthday: {
+        day: 26,
+        month: 12,
+        year: 1998,
+      },
+      phone: "+212682868708",
+      email: "muhcine.slimani@gmail.com",
+      address: "Sidi Yahya Ou Saad , Khenifra",
+      professionalSummary: `
+            Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+            et les membres de l'équipe.
+        `,
+      links: ["https://github.com/clerverman"],
+    },
+    education: [
+      {
+        diploma: "Master : Qualité du logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: "2022 - Présent",
+      },
+      {
+        diploma:
+          "Licence professionnelle : Systèmes d'information et génie logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: "2021 - 2022",
+      },
+      {
+        diploma: "DUT : Génie informatique -Génie logiciel",
+        organisation: "ESTM - Ecole superieure de technologie - Meknès",
+        year: "2019 - 2021",
+      },
+      {
+        diploma: "Baccaleauréat : sciences mathématiques -A Français",
+        organisation: "Lycée El Mohammedia - Beni Mellale",
+        year: "2018 - 2019",
+      },
+      {
+        diploma: "Baccaleauréat : sciences physiques Français",
+        organisation: "Lycée Tazizaout - El Kbab",
+        year: "2017 - 2018",
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie de l’Objet en Java",
+        details: [
+          "JDBC",
+          "Multi-Thread",
+          "Journalisation : JUI - Log4j - Slf4j - Logback",
+          "Swing",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Node.js",
+          "React",
+          "Angular",
+          "TailwindCSS",
+          "Bootstrap",
+        ],
+      },
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Maven", "Git", "GitHub", "BitBucket", "JUnit"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+      {
+        skill: "Base de données relationnelle",
+        details: ["MySQL", "Oracle", "SQLite", "SQL", "PL/SQL"],
+      },
+      {
+        skill: "Conception et modélisation des données",
+        details: ["UML", "Merise", "Agile/Scrum"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "SAMA DESIGN - MEKNÈS",
+        technologies: [
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+        ],
+        year: "2021 - 2022",
+        duration: "plus de 7 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "INNOVSTREAM - LAAYOUNE",
+        technologies: [
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+          "CMS : Moodle",
+        ],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "SAMA DESIGN - MEKNÈS",
+        technologies: [
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+        ],
+        year: 2021,
+        duration: "1 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "SAMA DESIGN - MEKNÈS",
+        title: "Gestion des salons de coiffure",
+        technologies: [
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+        ],
+        year: "01-07-2022/01-01-2023",
+        duration: "6 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "INNOVSTREAM",
+        title: "Développement d’une plateforme E-learning",
+        technologies: [
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+        ],
+        year: "20-04-2022/20-06-2022",
+        duration: "2 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "SAMA DESIGN - MEKNÈS",
+        title: "Gestion d’une école antique",
+        technologies: [
+          "Laravel",
+          "PHP",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+        ],
+        year: "20-05-2021/20-06-2021",
+        duration: "1 mois",
+      },
+      {
+        type: "Projet ( PFE-DUT ) ",
+        organisation: "ESTM",
+        title:
+          "Conception et Développement d'une solution de fidélisation d'un client",
+        technologies: [
+          "ReactJS",
+          "NodeJS",
+          "ExpressJS",
+          "JavaScript",
+          "HTML 5",
+          "Bootstrap 4",
+          "CSS 3",
+        ],
+        year: "2020 - 2021",
+        duration: "",
+      },
+    ],
+    softSkills: [
+      "Esprit d'équipe",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B2",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+      },
+      {
+        language: "Arabe",
+        level: "C1",
+      },
+      {
+        language: "Tamazight",
+        level: "C2",
+      },
+    ],
+    interests: ["Foot-ball", "Écriture", "Nouvelles technologies"],
+  },
+  {
+    profile: {
+      photo: "./images/taha-tehitah.jpg",
+      firstName: "Taha",
+      lastName: "Tehitah",
+      birthday: {
+        day: 29,
+        month: 12,
+        year: 2000,
+      },
+      phone: "(+212) 0664860123",
+      email: "Tahatehitah72@gmail.com",
+      address: "34 lot aristo rte ain chkef Fès",
+      professionalSummary: `Développeur de logiciels passionné avec plus d'un an d'expérience professionnelle. Actuellement en train de poursuivre un Master Qualité du Logiciel, je suis constamment à la recherche de nouvelles opportunités pour me développer et apprendre. Ma passion pour la découverte et mon engagement envers l'excellence m'ont permis de travailler sur des projets stimulants et de maintenir une solide éthique de travail.`,
+      links: ["linkedin.com/in/taha-tehitah"],
+    },
+    education: [
+      {
+        diploma: "Master Qualité du Logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma:
+          "Licence Professionel Systèmes d'Information et Génie Logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2021,
+      },
+      {
+        diploma: "DUT Informatique - Génie Logiciel",
+        organisation: "ESTF - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2019,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "CDI",
+        organisation: "CGI Fès",
+        title: "Dévelopeur Applications Web",
+        technologies: [
+          "CodeIgniter 3",
+          "JQuery",
+          "Apache",
+          "Jenkins",
+          "git",
+          "GitLab",
+        ],
+        year: 2022,
+        duration: "3 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "CGI, Fès",
+        title: "Dévelopeur Java",
+        technologies: [
+          "Java",
+          "Jakarta EE",
+          "JavaFX",
+          "SMTP server",
+          "Apache Tomcat",
+          "Javascript",
+          "HTML5/CSS3",
+          "XML",
+        ],
+        year: 2022,
+        duration: "3 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "DBS maroc, Casablanca",
+        title: "Application de Fret numérique",
+        technologies: [
+          "PHP MVC",
+          "Google Maps",
+          "FileZilla",
+          "Apache",
+          "MySQL Database",
+          "HTML5/CSS3",
+          ,
+          "Javascript",
+          "Bootstrap",
+        ],
+        year: 2021,
+        duration: "3 mois",
+      },
+      {
+        type: "PFE",
+        organisation: "EST",
+        title: "Application Taxi Express",
+        technologies: [
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Cloudfirestore",
+          "Firebase Auth",
+          "Firebase Database",
+          "Google Maps",
+        ],
+        year: 2021,
+        duration: "3 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "HC Ingénierie, Fès",
+        title: "Application pour la mise en relation techniciens/clients",
+        technologies: [
+          "PHP MVC",
+          "Google Maps",
+          "FileZilla",
+          "Apache",
+          "MySQL Database",
+          "HTML5/CSS3",
+          "Bootstrap",
+        ],
+        year: 2021,
+        duration: "3 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Organisation",
+      "Gestion du Stress",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Arabe",
+        level: "", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Français",
+        level: "A1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "TCF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Pratique basketball", "Passionné de cinéma"],
+  },
+  {
+    profile: {
+      photo: "./images/ZIANE-Zakaria.jpg",
+      firstName: "Zakaria",
+      lastName: "ZIANE",
+      birthday: {
+        day: 16,
+        month: 4,
+        year: 2000,
+      },
+      phone: "0665182881",
+      email: "zakariaziane@hotmail.com",
+      address: "N7 Bloc 27 Quartier SAIDA 1, Safi Maroc",
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+            et les membres de l'équipe.
+        `,
+      links: [
+        "https://www.linkedin.com/in/ziane-zakaria/",
+        "https://github.com/ZZiane",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2023,
+      },
+      {
+        diploma: "Licence sciences et techniques en Infomatique",
+        organisation:
+          "FSTBM - Faculté des Sciences et Techniques - Béni Mellal",
+        year: 2022,
+      },
+      {
+        diploma: "Diplôme d'Études Universitaires Scientifiques et Techniques",
+        organisation:
+          "FSTBM - Faculté des Sciences et Techniques - Béni Mellal",
+        year: 2021,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "Modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+      {
+        skill: "Administration Base de donnée",
+        details: ["Oracle", "SQL Server", "MySQL", "PL/SQL"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Projet",
+        organisation: "FSTBM",
+        title:
+          "Réalisation d’une application d’apprentissage basé sur la réalité augmenter",
+        technologies: ["Unity 3D", "C#", ".NET", "ARCore"],
+        year: 2022,
+        duration: "2 mois",
+      },
+    ],
+    softSkills: [
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Gestion du Temps",
+      "Rigueur",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B2",
+        certification: null,
+        experience: null,
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+        certification: null,
+        experience: null,
+      },
+      {
+        language: "Arabe",
+        level: "C1",
+        certification: null,
+        experience: null,
+      },
+    ],
+    interests: ["Problem Solving", "Basket Ball", "Lecture"],
+  },
+  {
+    profile: {
+      photo: "resources/picture.PNG",
+      firstName: "Kaoutar",
+      lastName: "Aissaoui",
+      birthday: {
+        day: 03,
+        month: 09,
+        year: 2002,
+      },
+      phone: "0660029900",
+      email: "kaoutaraissaoui9@gmail.com",
+      address: "Driouch ,pam",
+      professionalSummary: `Je suis une ingénieure en informatique qui dispose d'une vaste expérience
+         en architectures logicielles et de nouvelles technologies informatiques,
+          notamment en ce qui concerne Jakarta EE, JavaScript, HTML-CSS et Java.
+           Je suis également une experte dans la gestion de projets agiles, capable de planifier, 
+           exécuter et coordonner efficacement des tâches avec des équipes multidisciplinaires.
+            Mes compétences en communication et en résolution de problèmes sont de qualité, 
+            ce qui me permet de travailler efficacement avec les parties prenantes et 
+            les membres de l'équipe.
+        `,
+    },
+    education: [
+      {
+        diplome: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2023,
+      },
+      {
+        diplome: "Licence DSIC",
+        organisation: "ESTM - Université Moulay Ismail - Meknes",
+        year: 2022,
+      },
+      {
+        diplome: "DUT genie logiciel",
+        organisation: "ESTM - Université Moulay Ismail - Meknes",
+        year: 2021,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Git", "GitHub", "GitLab", "Jira"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "université moulay Ismaïl- Meknes",
+        title: "Gestion des offres de formation ",
+        technologies: ["Laravel", "JavaScript", "CSS"],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "cour d'appel - Meknes",
+        title: "Réalisation d'une application de Gestion des dossiers",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        year: 2021,
+        duration: "2 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Créativité",
+      "Adaptabilité",
+      "Présence",
+      "Empatie et Ecoute",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+    ],
+    languages: [
+      {
+        language: "Arabe ",
+        level: "C2",
+      },
+      {
+        language: "Francais",
+        level: "B2",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+      },
+    ],
+    interests: ["Lecture"],
+  },
+  {
+    profile: {
+      photo: "/images/MAMOUNI-Hadil.jpeg",
+      firstName: "Hadil",
+      lastName: "MAMOUNI",
+      birthday: {
+        day: 01,
+        month: 11,
+        year: 2001,
+      },
+      phone: "0613656136",
+      email: "hadilmamouni48@gmail.com",
+      address: "108 Lot Taoufik Merja Fès",
+      professionalSummary: `Ingénieure en informatique avec une bonne expérience 
+                  sur les architectures logicielles et les nouvelles technologies informatique, 
+                  je suis passionné par la création de logiciels de haute qualité et performants.
+                  J'ai acquis des compétences approfondies en matière de développement de logiciels,
+                  de tests de qualité, de gestion de projets, ainsi qu'en analyse de données.
+                  Je suis un travailleuse assidue et autonome, 
+                  qui s'engage à livrer des projets dans les délais impartis 
+                  tout en maintenant un niveau de qualité élevé.`,
+      links: [],
+    },
+
+    education: [
+      {
+        diploma: "Master Spécialisé en Qualité du Logiciel",
+        organisation: "Faculté des sciences Dhar El Mahraz",
+        year: "2022/2024",
+      },
+      {
+        diploma:
+          "Licence Fondamentale en Sciences Mathématiques et Informatique",
+        organisation: "Faculté des Sciences Dhar El Mahraz",
+        year: "2019/2022",
+      },
+      {
+        diploma: "Baccalauréat en Sciences Physiques",
+        organisation: "Faculté des Sciences Dhar El Mahraz",
+        year: "2018/2019",
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+
+    experiences: [
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: `Réalisation d\'une application d\'une application mobile 
+              pour l\'irrigation et la gestion de l\'eau au service des agriculteurs
+               des associations d\'irrigation.`,
+        technologies: ["Java", "xml", "php"],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Travail",
+        organisation: "Bureau de change",
+        title: "Caissière de bureau de change",
+        technologies: [],
+        year: 2022,
+        duration: "3 mois",
+      },
+
+      {
+        type: "Travail",
+        organisation: "Tasshilat",
+        title: "Chargée de clientèle dans l'espace service Tasshilat",
+        technologies: [],
+        year: 2021,
+        duration: "2 mois",
+      },
+      {
+        type: "Travail",
+        organisation: "MoneyGram",
+        title: "Chargée de clientèle en MoneyGram",
+        technologies: [],
+        year: 2020,
+        duration: "3 mois",
+      },
+    ],
+    softSkills: [
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Adaptabilité",
+      "Gestion du Temps",
+      "Rigueur",
+      "Organisation",
+      "Gestion du Stress",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B1",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+      },
+    ],
+
+    interests: ["Lecture", "Basketball", "photographie"],
+  },
+  {
+    profile: {
+      photo: "./images/Mougtahidi Noura.jpg",
+      firstName: "Noura",
+      lastName: "MOUGTAHIDI",
+      birthday: {
+        day: 24,
+        month: 11,
+        year: 1999,
+      },
+      phone: "06 02 12 85 34",
+      email: "mougtahidi.noura@gmail.com",
+      address: "79, Bloc G, Quartier El Massira, Khouribga",
+      professionalSummary: `Ingénieure en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+            Expérimentée dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles.
+        `,
+      links: [
+        "https://www.linkedin.com/in/noura-mougtahidi-50ba26210/",
+        "",
+        "",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master spécialisé Qualité du Logiciel (En cours)",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2024,
+      },
+      {
+        diploma:
+          "Licence Professionnelle en Méthodes Informatiques Appliquées à la Gestion des Entreprises",
+        organisation: "FSJES Ain Sebaâ – Université Hassan II - Casablanca",
+        year: 2021,
+      },
+      {
+        diploma: "Diplôme Universitaire de Technologie en Génie Informatique",
+        organisation: "EST - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2020,
+      },
+      {
+        diploma: "Baccalauréat Sciences physique",
+        organisation: "Lycée Libre - Khouribga",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "PHP"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Maven", "Git", "GitHub", "GitLab", "Jira", "JUnit"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+      {
+        skill: "Mobile",
+        details: ["Android"],
+      },
+      {
+        skill: "Conception et modélisation",
+        details: ["Merise", "UML"],
+      },
+      {
+        skill: "Bases de données",
+        details: ["Oracle", "MySQL", "SQL Server", "XML", "JSON"],
+      },
+      {
+        skill: "Gestion du Projet",
+        details: ["Agile/Scrum"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "DigitalMa - Casablanca",
+        title: "Développement des sites et des applications web",
+        technologies: ["HTML", "CSS", "JavaScript", "bootstrap", "PHP"],
+        year: 2022,
+        duration: "5 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "FSJES Ain Sebaa - Casablanca",
+        title:
+          "Réalisation d’une application de gestion des départements de FSJES Ain Sebaa",
+        technologies: ["HTML", "CSS", "JavaScript", "JEE", "Sprin Boot"],
+        year: 2021,
+        duration: "2 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "EST - Fès",
+        title:
+          "Réalisation d’un environnement de scénarisation des capsules vidéo pédagogiques pour les MOOC",
+        technologies: ["HTML", "CSS", "JavaScript", "JQuery", "PHP"],
+        year: 2020,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "OCP - Khouribga",
+        title: "Réalisation d’une application de gestion de stock magasin",
+        technologies: ["Access", "Visual Basic"],
+        year: 2019,
+        duration: "1 mois",
+      },
+    ],
+    softSkills: [
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Organisation",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B2", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Arabe",
+        level: "C2",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Peinture", "Design graphique", "Music"],
   },
 ];

@@ -202,6 +202,7 @@ body {
   justify-content: space-between;
   text-align: center;
   grid-area: techonlogiesInfos;
+  flex-wrap: wrap;
 }
 .technology {
   padding: 10px;
@@ -305,24 +306,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333333;
+  background-color: #dadada;
   padding: 10px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(to right, #283c86, #a9926d);
-  padding: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 40px;
   font-family: "Helvetica Neue", sans-serif;
 }
 
 .navbar button {
-  background-color: #ffffff;
+  background-color: #242d3e;
   border: none;
-  color: #283c86;
+  color: #ffffff;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
@@ -336,6 +330,64 @@ body {
 }
 
 .navbar button:hover {
-  background-color: #b36c1a;
-  color: #ffffff;
+  background-color: #a9926d;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+#search-results {
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  z-index: 999;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+#search-results {
+  display: flex;
+  flex-direction: column;
+}
+
+#search-results span {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#search-results span:hover {
+  background-color: #f0f0f0;
+}
+
+#search-results img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.results-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cv-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.results-container:hover {
+  background-color: #f0f0f0;
 }
