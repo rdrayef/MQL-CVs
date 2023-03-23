@@ -1,0 +1,407 @@
+.educations,
+.experiences,
+.languages {
+  border-top: 10px solid #b4a7f5;
+}
+.experiences,
+.interest,
+.languages {
+  border-left: 10px solid #b4a7f5;
+}
+.educations,
+.personalinfos {
+  border-right: 10px solid #b4a7f5;
+}
+body {
+  margin: 0;
+}
+.cv {
+  display: grid;
+  grid-template-areas: "Infos Infos" "image experiencesInfos" "educationInfos profileInfos" "skillsInfos languagesInfos" "skillsInfos interestInfos";
+  font-family: Poppins;
+  padding: 0 40px 40px;
+}
+.image,
+.info {
+  display: flex;
+}
+.image {
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  grid-area: image;
+  width: 100%;
+  height: 100%;
+}
+.image > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 6px solid #b4a7f5;
+}
+.info {
+  grid-area: Infos;
+  flex-direction: row-reverse;
+  justify-content: center;
+  text-align: center;
+}
+.personalinfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.educations,
+.languages {
+  flex-direction: column;
+  display: flex;
+}
+.educations {
+  grid-area: educationInfos;
+  justify-content: center;
+}
+.education {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.education > :first-child {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.education > :nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.education > :nth-child(3) {
+  font-size: 17px;
+  font-weight: 700;
+  color: #b4a7f5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.experienceinfo > :first-child {
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.languages {
+  grid-area: languagesInfos;
+  justify-content: center;
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.language > :first-child {
+  color: #b4a7f5;
+  font-size: 18px;
+  font-weight: 600;
+}
+.language > :nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+}
+.profile {
+  grid-area: profileInfos;
+  display: flex;
+  flex: 1;
+}
+.profile > :nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: justify;
+  color: #272535;
+}
+.experiences {
+  grid-area: experiencesInfos;
+}
+.experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  border-top: 2px solid #b4a7f5;
+  margin: 10px;
+}
+.experienceinfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 500;
+  justify-content: space-between;
+  color: #fff;
+  justify-content: center;
+  padding: 15px;
+  text-align: justify;
+}
+.experienceinfo > :nth-child(2) {
+  font-size: 18px;
+  color: #b4a7f5;
+  font-weight: 700;
+}
+.experiencedetails {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.experiencedetails > span {
+  font-size: large;
+  font-weight: 600;
+  color: #b4a7f5;
+  padding: 5px;
+  background: #242422;
+}
+.contactinfos,
+.technology > span {
+  font-size: 18px;
+  text-align: center;
+}
+.experiencedetails > span::before {
+  content: "# ";
+}
+.contactinfos,
+.educations,
+.experiences,
+.interest,
+.languages,
+.profile,
+.soft,
+.technologies {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #000;
+  padding: 25px;
+}
+.contactinfos,
+.educations,
+.experiences,
+.languages,
+.personalinfos {
+  color: #fff;
+  background-color: #242422;
+}
+.contactinfos {
+  display: flex;
+  grid-area: contactInfos;
+  flex-direction: column-reverse;
+  flex: 1;
+  justify-content: center;
+  font-weight: 500;
+}
+.contactinfos > span {
+  padding: 10px;
+}
+.title {
+  text-transform: uppercase;
+  color: #272535;
+  font-weight: 500;
+  font-size: 25px;
+  padding: 15px;
+}
+.title::before {
+  content: "\2B25 ";
+  color: #b4a7f5;
+  padding: 5px;
+}
+.educations > .title,
+.experiences > .title,
+.interest,
+.interest > .title,
+.languages > .title {
+  color: #fff;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  grid-area: techonlogiesInfos;
+}
+
+.technology {
+  flex-basis: calc(33.33% - 40px);
+  margin: 10px;
+  text-align: center;
+}
+
+.technology > span {
+  color: #272535;
+  font-weight: 600;
+}
+.technologydetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.technologydetails > span {
+  list-style: none;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #242422;
+  color: #b4a7f5;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.technologydetails > span::before {
+  content: "</> ";
+}
+.skills {
+  grid-area: skillsInfos;
+}
+.interest {
+  grid-area: interestInfos;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  background-color: #242422;
+}
+.interests,
+.personalinfos {
+  display: flex;
+  text-align: center;
+}
+.interest,
+.soft {
+  font-size: large;
+}
+.softskills {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+.interests {
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.interests > span,
+.softskills > span {
+  font-weight: 500;
+  font-size: 17px;
+}
+.softskills > span {
+  color: #b4a7f5;
+  background-color: #242422;
+  padding: 7px;
+  border-radius: 5px;
+}
+.interests > span {
+  padding: 5px;
+}
+.interests > span::before {
+  content: "\2B9A ";
+  color: #b4a7f5;
+  padding: 5px;
+}
+.personalinfos {
+  flex-direction: column;
+  justify-content: start;
+  grid-area: personalInfos;
+  padding: 30px;
+}
+.personalinfos > :first-child {
+  font-size: 52px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.personalinfos > :nth-child(2) {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  background-color: #b4a7f5;
+}
+.contactinfos > .title {
+  display: none;
+}
+.progressbar {
+  background-color: #fff;
+  height: 13px;
+  border-radius: 10px;
+  position: relative;
+  width: 45%;
+}
+.progress {
+  background-color: #b4a7f5;
+  height: 100%;
+  border-radius: 10px;
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.5s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .cv {
+    grid-template-areas:
+      "Infos Infos"
+      "image image"
+      "educationInfos educationInfos"
+      "experiencesInfos experiencesInfos"
+      "profileInfos profileInfos"
+      "skillsInfos skillsInfos"
+      "languagesInfos languagesInfos"
+      "interestInfos interestInfos"
+      "techonlogiesInfos techonlogiesInfos";
+  }
+
+  .title {
+    font-size: 1.5em;
+    padding: 0.5em;
+  }
+
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info > * {
+    margin: 0.5em;
+  }
+
+  .education,
+  .experience,
+  .language {
+    padding: 1em;
+  }
+
+  .education > *:not(:last-child),
+  .experienceinfo > *:not(:last-child),
+  .language > *:not(:last-child),
+  .technologydetails > *:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+  .softskills {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+
+  .softskills > span {
+    color: #b4a7f5;
+    background-color: #242422;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}

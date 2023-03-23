@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+}
+
+.cv {
+  display: grid;
+  grid-template-areas:
+    "Infos Infos"
+    "image profileInfos"
+    "languagesInfos educationInfos"
+    "softSkillsInfos skillsInfos"
+    "interestInfos experiencesInfos";
+  font-family: Poppins;
+  padding: 40px;
+  padding-top: 0;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  grid-area: image;
+  width: 100%;
+  height: 100%;
+}
+
+.image > img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  grid-area: Infos;
+  justify-content: start;
+  text-align: start;
+}
+.personalinfos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.educations {
+  grid-area: educationInfos;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.education {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.education > :nth-child(1) {
+  color: #242d3e;
+  font-size: 16px;
+  font-weight: 600;
+}
+.education > :nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #242d3e;
+}
+.education > :nth-child(3),
+.experienceinfo > :nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #a9926d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.languages {
+  grid-area: languagesInfos;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.language > :nth-child(1) {
+  color: #a9926d;
+  font-size: 18px;
+  font-weight: 600;
+}
+.language > :nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+}
+.profile {
+  grid-area: profileInfos;
+}
+.profile > :nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  color: #000000;
+}
+
+.experiences {
+  grid-area: experiencesInfos;
+}
+.experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: #a9926d9c 1.5px solid;
+}
+.experienceinfo {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: justify;
+  justify-content: space-between;
+  color: #2c2c2c;
+}
+.experienceinfo > :nth-child(2) {
+  font-size: 18px;
+  color: #242d3e;
+  font-weight: bold;
+}
+.experiencedetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.experiencedetails > span {
+  font-size: 17px;
+  font-weight: 600;
+  color: #2c2c2c;
+  padding: 5px;
+}
+.experiencedetails > span::before {
+  content: "# ";
+  color: #a9926d;
+}
+
+.contactinfos,
+.educations,
+.languages,
+.profile,
+.experiences,
+.technologies,
+.skills,
+.interest {
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+.skills {
+  grid-area: skillsInfos;
+}
+.image,
+.soft,
+.languages,
+.interest {
+  background-color: #eeeef0;
+  color: black;
+}
+.contactinfos {
+  grid-area: contactInfos;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.contactinfos > span {
+  padding: 10px;
+  font-size: 18px;
+}
+.personalinfos,
+.contactinfos {
+  background-color: #242d3e;
+  color: white;
+}
+.title {
+  text-transform: uppercase;
+  color: #242d3e;
+  letter-spacing: 7px;
+  font-size: 25px;
+  text-decoration: overline;
+  font-weight: bold;
+  padding: 10px;
+}
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  grid-area: techonlogiesInfos;
+}
+.technology {
+  padding: 10px;
+}
+.technology > span {
+  font-size: 19px;
+  color: #a9926d;
+  font-weight: 600;
+  text-decoration: underline;
+  text-align: center;
+}
+.technologydetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.technologydetails > span {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2c2c2c;
+  padding: 5px;
+}
+.technologydetails > span::before {
+  content: "\2598 ";
+  padding: 5px;
+  color: #b97d1dda;
+}
+
+.interest {
+  grid-area: interestInfos;
+  display: flex;
+}
+
+.soft,
+.interest {
+  font-size: large;
+}
+.soft {
+  grid-area: softSkillsInfos;
+}
+.softskills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.softskills > span,
+.interests > span {
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.softskills > span::before,
+.interests > span::before {
+  content: "\2598 ";
+  color: #ab7929;
+  font-size: 15px;
+}
+
+.personalinfos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: start;
+  grid-area: personalInfos;
+  padding: 30px;
+}
+
+.personalinfos > :nth-child(1) {
+  font-size: 65px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.personalinfos > :nth-child(2) {
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  color: #a9926d;
+}
+.contactinfos > .title {
+  display: none;
+}
+
+.progressbar {
+  display: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #283c86, #a9926d);
+  padding: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.navbar button {
+  background-color: #ffffff;
+  border: none;
+  color: #283c86;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar button:hover {
+  background-color: #b36c1a;
+  color: #ffffff;
+}
