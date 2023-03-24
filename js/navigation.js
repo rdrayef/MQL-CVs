@@ -55,31 +55,35 @@ function searchCV(searchTerm) {
       );
     return Match;
   });
+  if (isDisplayOne) {
+    searchResults.innerHTML = "";
 
-  searchResults.innerHTML = "";
+    matchingCVs.forEach((cv) => {
+      const results = document.createElement("div");
+      results.className = "results-container";
 
-  matchingCVs.forEach((cv) => {
-    const results = document.createElement("div");
-    results.className = "results-container";
+      const image = document.createElement("img");
+      image.src = cv.profile.photo;
+      const sp = document.createElement("span");
+      sp.textContent = `${cv.profile.firstName} ${cv.profile.lastName}`;
+      sp.addEventListener("click", () => {
+        showCv(cvs.indexOf(cv));
 
-    const image = document.createElement("img");
-    image.src = cv.profile.photo;
-    const sp = document.createElement("span");
-    sp.textContent = `${cv.profile.firstName} ${cv.profile.lastName}`;
-    sp.addEventListener("click", () => {
-      loadCV(cvs.indexOf(cv));
+        searchInput.value = "";
+        searchResults.innerHTML = "";
+      });
 
-      searchInput.value = "";
-      searchResults.innerHTML = "";
+      results.appendChild(image);
+      results.appendChild(sp);
+      searchResults.append(results);
     });
-
-    results.appendChild(image);
-    results.appendChild(sp);
-    searchResults.append(results);
-  });
+  }
 }
 
 searchInput.addEventListener("input", () => {
   const query = searchInput.value;
   searchCV(query);
 });
+
+const displaySwitchButton = document.getElementById("switch-display");
+displaySwitchButton.addEventListener("click", switchDisplay);

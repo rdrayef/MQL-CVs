@@ -1,3 +1,5 @@
+let isDisplayOne = true;
+
 function loadCV(index = 0) {
   console.log("Length: ", cvs.length);
   let cv = cvs[index];
@@ -55,7 +57,7 @@ function loadCV(index = 0) {
     s += loadInterstsInfos(cv);
     s += `</div>`;
   }
-  document.getElementById("cv").innerHTML = s;
+  document.getElementById("cvs").innerHTML = s;
 }
 
 function loadPersonalInfos(cv) {
@@ -153,4 +155,50 @@ function loadInterstsInfos(cv) {
     s += `<span>${cv.interests[i]}</span>`;
   }
   return s;
+}
+
+function loadCVs() {
+  let s = "<div class='cv-grid'>";
+  for (let i = 0; i < cvs.length; i++) {
+    let cv = cvs[i];
+    s += `<div class='cv-tile' onclick='showCv(${i})'>
+            <div class='cv-tile-img'>
+              <img src='${cv.profile.photo}' alt='${cv.profile.firstName} ${cv.profile.lastName}'>
+            </div>
+            <div class='cv-tile-info'>
+              <span>${cv.profile.firstName} ${cv.profile.lastName}</span>
+              <span>${cv.profile.phone}</span>
+              <p><span>${cv.profile.email}</span></p>
+            </div>
+          </div>`;
+  }
+  s += "</div>";
+  document.getElementById("cvs").innerHTML = s;
+}
+
+function switchDisplay() {
+  let button = document.getElementById("switch-display");
+  let cvContainer = document.getElementById("cv-container");
+  if (cvContainer.classList.contains("grid-display")) {
+    searchResults.innerHTML = "";
+    cvContainer.classList.remove("grid-display");
+    button.innerHTML = "Display All CVs";
+    loadCV(currentIndex);
+    isDisplayOne = true;
+    document.getElementById("cvs").style.display = "grid";
+  } else {
+    searchResults.innerHTML = "";
+    cvContainer.classList.add("grid-display");
+    button.innerHTML = "Display One CV";
+    loadCVs();
+    isDisplayOne = false;
+    document.getElementById("cvs").style.display = "flex";
+    document.getElementById("cvs").style.justifyContent = "center";
+  }
+}
+
+function showCv(index) {
+  document.getElementById("cvs").style.display = "grid";
+  switchDisplay();
+  loadCV(index);
 }
