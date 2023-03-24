@@ -2501,17 +2501,17 @@ let cvs = [
     },
     education: [
       {
-        diplome: "Master MQL",
+        diploma: "Master MQL",
         organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
         year: 2023,
       },
       {
-        diplome: "Licence DSIC",
+        diploma: "Licence DSIC",
         organisation: "ESTM - Université Moulay Ismail - Meknes",
         year: 2022,
       },
       {
-        diplome: "DUT genie logiciel",
+        diploma: "DUT genie logiciel",
         organisation: "ESTM - Université Moulay Ismail - Meknes",
         year: 2021,
       },
@@ -2982,7 +2982,7 @@ let cvs = [
         type: "Stage",
         organisation: "Lycée Dar Essalam | Rabat",
         title: "Stage d'immersion en milieu éducatif",
-        technologies: [""],
+        technologies: [],
         year: "2022",
         duration: "Fevrier - Avril",
       },

@@ -152,7 +152,9 @@ function loadSoftSkillsInfos(cv) {
 function loadInterstsInfos(cv) {
   let s = "";
   for (let i = 0; i < cv.interests.length; i++) {
-    s += `<span>${cv.interests[i]}</span>`;
+    if (cv.interests[i] !== "") {
+      s += `<span>${cv.interests[i]}</span>`;
+    }
   }
   return s;
 }
