@@ -66,7 +66,7 @@ function loadPersonalInfos(cv) {
   </div>
   <div class="info">
     <div class="personalinfos">
-      <span>${cv.profile.firstName} ${cv.profile.lastName}</span>
+      <span>${cv.profile.lastName} ${cv.profile.firstName}</span>
       <span>Etudiant en MQL</span>
     </div>
     <div class="contactinfos">
@@ -182,16 +182,18 @@ function switchDisplay() {
   if (cvContainer.classList.contains("grid-display")) {
     searchResults.innerHTML = "";
     cvContainer.classList.remove("grid-display");
-    button.innerHTML = "Display All CVs";
+    button.innerHTML = "&#9783;";
     loadCV(currentIndex);
     isDisplayOne = true;
+    document.getElementById("nav-buttons").style.display = "flex";
     document.getElementById("cvs").style.display = "grid";
   } else {
     searchResults.innerHTML = "";
     cvContainer.classList.add("grid-display");
-    button.innerHTML = "Display One CV";
+    button.innerHTML = "&#9552;";
     loadCVs();
     isDisplayOne = false;
+    document.getElementById("nav-buttons").style.display = "none";
     document.getElementById("cvs").style.display = "flex";
     document.getElementById("cvs").style.justifyContent = "center";
   }

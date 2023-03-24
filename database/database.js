@@ -3588,4 +3588,201 @@ let cvs = [
 
     interests: ["Voyage", "Sport", "Natation"],
   },
+  {
+    profile: {
+      photo: "./images/Khezami.jpg",
+      firstName: "Mohammed",
+      lastName: "KHEZAMI",
+      birthday: {
+        day: 30,
+        month: 11,
+        year: 2000,
+      },
+      phone: "0616358321",
+      email: "Mohammed.khezamii@gmail.com",
+      address: "Narjiss fés",
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+            et les membres de l'équipe.
+        `,
+      links: ["khezami.com", "linkedin", "github"],
+    },
+    education: [
+      {
+        diploma: " MASTER QUALITÉ LOGICIEL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "LICENCE PROFESSIONNELLE EN INGÉNIERIE INFORMATIQUE",
+        organisation: "ESTS - École Supérieure de Technologie - Safi",
+        year: 2022,
+      },
+      {
+        diploma: "DUT EN GÉNIE INFORMATIQUE ",
+        organisation: "ESTS - École Supérieure de Technologie - Safi",
+        year: 2018,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "Elisoft Business & Technology - Rabat",
+        title:
+          "développement d’une application mobile de gestion des revenues.",
+
+        technologies: [
+          "Node js",
+          "Express js",
+          "Yodlee",
+          "Axios",
+          "Formik",
+          "Redux",
+        ],
+        year: 2022,
+        duration: "3 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "ESTS - Safi",
+        title: "Plateforme de candidature Licence professionnelle",
+        technologies: ["J2EE", "Servlet", "Jsp"],
+        year: 2022,
+        duration: "1 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "Adria Business & Technology - Casablanca",
+        title: "développement d’une solution E-banking ",
+        technologies: [
+          "ReactJS",
+          " Node js",
+          "JQuery",
+          "Ajax",
+          "HTML5",
+          "CSS3",
+          "Bootstrap",
+        ],
+        year: 2021,
+        duration: "2 mois",
+      },
+
+      {
+        type: "Projet",
+        organisation: "ESTS - Safi",
+        title:
+          "développement d’une application desktop de gestion des couvertures",
+        technologies: ["JAVAFX", "FXML", "SceneBuilder"],
+        year: 2021,
+        duration: "1 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "Adria Business & Technology - Casablanca",
+        title: "développement des rubriques personnalisées.",
+        technologies: [
+          "PHP",
+          " Wordpress CMS",
+          "JQuery",
+          "Ajax",
+          "google analytics",
+        ],
+        year: 2020,
+        duration: "1 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "OCP - Safi",
+        title: "développement d’une application web de gestion des stagiaires.",
+        technologies: ["HTML5", " JavaScript", "PHP", "MySQL"],
+        year: 2020,
+        duration: "1 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Gestion du Temps",
+      "Rigueur",
+      "Organisation",
+      "Gestion du Stress",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B2",
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Arabe",
+        level: "A1",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Football", "Coding", "traveling", "photography"],
+  },
 ];
