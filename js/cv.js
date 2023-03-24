@@ -198,7 +198,9 @@ function switchDisplay() {
 }
 
 function showCv(index) {
-  document.getElementById("cvs").style.display = "grid";
-  switchDisplay();
+  if (!isDisplayOne) {
+    switchDisplay();
+  }
   loadCV(index);
+  document.getElementById("cvs").style.display = "grid";
 }

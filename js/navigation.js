@@ -55,28 +55,54 @@ function searchCV(searchTerm) {
       );
     return Match;
   });
-  if (isDisplayOne) {
-    searchResults.innerHTML = "";
+  if (matchingCVs.length > 0) {
+    if (isDisplayOne) {
+      searchResults.innerHTML = "";
 
-    matchingCVs.forEach((cv) => {
-      const results = document.createElement("div");
-      results.className = "results-container";
+      matchingCVs.forEach((cv) => {
+        const results = document.createElement("div");
+        results.className = "results-container";
 
-      const image = document.createElement("img");
-      image.src = cv.profile.photo;
-      const sp = document.createElement("span");
-      sp.textContent = `${cv.profile.firstName} ${cv.profile.lastName}`;
-      sp.addEventListener("click", () => {
-        showCv(cvs.indexOf(cv));
+        const image = document.createElement("img");
+        image.src = cv.profile.photo;
+        const sp = document.createElement("span");
+        sp.textContent = `${cv.profile.firstName} ${cv.profile.lastName}`;
+        sp.addEventListener("click", () => {
+          showCv(cvs.indexOf(cv));
+          searchInput.value = "";
+          searchResults.innerHTML = "";
+        });
 
-        searchInput.value = "";
-        searchResults.innerHTML = "";
+        results.appendChild(image);
+        results.appendChild(sp);
+        searchResults.append(results);
       });
+    } else {
+      let s = "<div class='cv-grid'>";
+      matchingCVs.forEach((cv) => {
+        let i = cvs.indexOf(cv);
+        s += `<div class='cv-tile' onclick='showCv(${i})'>
+                  <div class='cv-tile-img'>
+                    <img src='${cv.profile.photo}' alt='${cv.profile.firstName} ${cv.profile.lastName}'>
+                  </div>
+                  <div class='cv-tile-info'>
+                    <span>${cv.profile.firstName} ${cv.profile.lastName}</span>
+                    <span>${cv.profile.phone}</span>
+                    <p><span>${cv.profile.email}</span></p>
+                  </div>
+                </div>`;
+      });
+      s += "</div>";
+      document.getElementById("cvs").innerHTML = s;
+    }
+  } else {
+    let error = "<span id='error'>Aucune Correspandance !</span>";
 
-      results.appendChild(image);
-      results.appendChild(sp);
-      searchResults.append(results);
-    });
+    if (isDisplayOne) {
+      searchResults.innerHTML = error;
+    } else {
+      document.getElementById("cvs").innerHTML = error;
+    }
   }
 }
 

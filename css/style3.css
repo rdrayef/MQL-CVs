@@ -455,3 +455,9 @@ body {
   font-weight: normal;
   color: #ab7929;
 }
+#error {
+  display: block;
+  font-size: 18px;
+  color: red;
+  margin: 10px 0;
+}

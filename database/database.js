@@ -125,7 +125,7 @@ let cvs = [
   },
   {
     profile: {
-      photo: "",
+      photo: "./images/AMLAL_Wiam.PNG",
       firstName: "Wiam",
       lastName: "Amlal",
       birthday: {
@@ -416,7 +416,7 @@ let cvs = [
   },
   {
     profile: {
-      photo: "images/pdp.jpg",
+      photo: "./images/Boumhidi Soufian.jpg",
       firstName: "Soufian",
       lastName: "BOUMHIDI",
       birthday: {
@@ -2478,7 +2478,7 @@ let cvs = [
   },
   {
     profile: {
-      photo: "resources/picture.PNG",
+      photo: "./images/Aissaoui Kaoutar.PNG",
       firstName: "Kaoutar",
       lastName: "Aissaoui",
       birthday: {
@@ -2911,5 +2911,681 @@ let cvs = [
       },
     ],
     interests: ["Peinture", "Design graphique", "Music"],
+  },
+  {
+    profile: {
+      photo: "./images/Aouragh Loubna.jpg",
+      firstName: "Loubna",
+      lastName: "Aouragh",
+      birthday: {
+        day: 24,
+        month: "Novembre",
+        year: 1999,
+      },
+      phone: "0690189394",
+      email: "loubnaaouragh24@gmail.com",
+      address: "ELOUAHA Nr 89 ERRACHIDIA",
+      professionalSummary: `Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+            et les membres de l'équipe.
+        `,
+      links: ["", "", ""],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: "2022",
+      },
+      {
+        diploma: "Licence En Informatique",
+        organisation: "Ecole Normale Supérieure | Rabat",
+        year: "2022",
+      },
+      {
+        diploma: "DEUG En Informatique",
+        organisation: " Ecole Normale Supérieure | Rabat",
+        year: "2019 - 2021",
+      },
+      {
+        diploma: "Baccalaureat - Sciences Physique",
+        organisation: " Ecole de l'enseignement privé Iqrae2 | Errachidia",
+        year: "2016 - 2017",
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Ingénieurie WEB:",
+        details: ["HTML", "CSS", "JavaScript"],
+      },
+      {
+        skill: "Conception/modélisation:",
+        details: ["UML", "Merise"],
+      },
+
+      {
+        skill: "Les IDE:",
+        details: ["Eclipse", "VS Code", "Android Studio"],
+      },
+      {
+        skill: "Outils de GP:",
+        details: ["Git", "GitHub", "Bitbucket", "Jira"],
+      },
+      {
+        skill: "Autres compétences :",
+        details: ["C", "Assembleur", "SE Linux", "SE Windows", "Python"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "Lycée Dar Essalam | Rabat",
+        title: "Stage d'immersion en milieu éducatif",
+        technologies: [""],
+        year: "2022",
+        duration: "Fevrier - Avril",
+      },
+      {
+        type: "Projet",
+        organisation: "Ecole Normale Supérieure | Rabat",
+        title: "Création d'application Web de gestion d'absence",
+        technologies: ["HTML", "CSS", "JavaScript", "Laravel"],
+        year: "2022",
+        duration: "Juin",
+      },
+    ],
+    softSkills: ["Esprit d'équipe", "Empatie et Ecoute", "Organisation"],
+    languages: [
+      {
+        language: "Arabe",
+        level: "C1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Français",
+        level: "C1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "C1",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Sport", "Randonnée", "Natation"],
+  },
+  {
+    profile: {
+      photo: "./images/Asskake Maryam.jpeg",
+      firstName: "Maryam",
+      lastName: "Asskake",
+      birthday: {
+        day: 29,
+        month: 06,
+        year: 2000,
+      },
+      phone: "06 81 51 81 00",
+      email: "meriemasskak@gmail.com",
+      address: "Bloc 03 NR 175 hay lahrahe Ait Melloul",
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+            et les membres de l'équipe.
+        `,
+      links: ["", "", ""],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: "2022-2023",
+      },
+      {
+        diploma:
+          "Licence professionnelle en Ingénierie des Système Informatiques et Logiciels",
+        organisation: " ESTE - Ecole Supérieure de Téchnologie - Essaouira ",
+        year: "2021-2022",
+      },
+      {
+        diploma: "Diplôme Universitaire de Technologie en Génie Informatique",
+        organisation: " ESTA - Ecole Supérieure de Téchnologie - Agadir ",
+        year: "2019-2021",
+      },
+      {
+        diploma: "Baccalauréat en Sciences mathématique A",
+        organisation: " Lycée Mohammed El Baquali - Ait melloul-Inzegane ",
+        year: "2017-2018",
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: ["Git", "GitHub", "Jira", "JUnit"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "CGI - Fès",
+        title: "xxxxxx xxxxxx xxxxx xxxxx xxxx",
+        technologies: ["Spring Boot", "React", "Node.js"],
+        year: 2023,
+        duration: "4 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "Africa Verify - Casablanca",
+        title: "Réalisation d’une application de gestion d’un cabinet dentaire",
+        technologies: ["Larvel", "HTML", "CSS"],
+        year: 2022,
+        duration: "2 mois",
+      },
+      {
+        type: "Stage",
+        organisation: "Trombino Service - Casablanca",
+        title: "Réalisation d’une boutique en ligne pour la vente des habits",
+        technologies: ["Larvel", "MySQL"],
+        year: 2021,
+        duration: "2 mois",
+      },
+
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: "Réalisation d'une application de Gestion de CVs",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        year: 2023,
+        duration: "1 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: "Réalisation d'un site web ",
+        technologies: ["PHP", "HTML", "CSS", "MySQL"],
+        year: 2023,
+        duration: "1 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Gestion du Temps",
+      "Rigueur",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "C1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "TCF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "Connaissance technique",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["", "", ""],
+  },
+  {
+    profile: {
+      photo: "./images/DaoudiSanaa.jpeg",
+      firstName: "DAOUDI ",
+      lastName: "Sanaa",
+      birthday: {
+        day: "3",
+        month: "octobre",
+        year: "2001",
+      },
+      phone: "+212 7 04 40 77 35",
+      email: "daoudisanaa879@gmail.com",
+      address: "Hay alouarda n°87 tiflet,morocco",
+      professionalSummary: `Je suis une étudiante en Master en Qualité de Logiciel, passionnée par 
+        le développement informatique et déterminée à améliorer mes compétences. J'ai une solide 
+        formation en programmation, gestion de projet et résolution de problèmes techniques, mais 
+        pas d'expérience professionnelle. Mon objectif est de contribuer au succès des projets 
+        informatiques en relevant de nouveaux défis.
+        `,
+      links: [
+        "https://mail.google.com/mail/u/0/#inbox",
+        "https://www.linkedin.com/in/sanaa-daoudi-502766247/",
+        "",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master Spécialisé : Qualité du Logiciel",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: "2022",
+      },
+      {
+        diploma:
+          "Licence Fondamentale : Science Mathématiques et Informatiques",
+        organisation: "Université Ibn Tofaïl",
+        year: "2021-2022",
+      },
+      {
+        diploma:
+          "Diplôme d'études universitaires générales : Science Mathématiques et Informatiques",
+        organisation: "Université Ibn Tofaïl",
+        year: "2019-2021",
+      },
+      {
+        diploma: "BACCALAUREAT Sciences physiques",
+        organisation: "Lycée ABDELKARIM KHATTABI",
+        year: "2018-2019",
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript"],
+      },
+
+      {
+        skill: "Ingénierie DevOps Ingénierie DevOps",
+        details: ["Maven", "Git", "GitHub", "GitLab", "Jira", "JUnit"],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+      {
+        skill: "Bases de données",
+        details: ["MySQL", "PL/SQL", " NoSQL ", "Oracle", "BD JSON"],
+      },
+      {
+        skill: "Autres ",
+        details: ["C", "C++", " Python ", "Android", "UML"],
+      },
+    ],
+    experiences: [
+      {
+        type: "Projet",
+        organisation: "Université Sidi Mohammed ben Abdellah",
+        title:
+          "Cette application extrait les classes et packages d'un projet Java pour générer un diagramme de packages et des diagrammes de classes UML correspondants.",
+        technologies: ["JAVA", "XML"],
+        year: 2023,
+        duration: "1 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "Université Ibn Tofaïl",
+        title:
+          "Mise en place d'une application web pour la gestion des activités des doctorants",
+        technologies: ["HTML", "CSS", "JavaScript", "Laravel"],
+        year: 2022,
+        duration: "3 mois",
+      },
+    ],
+    softSkills: [
+      "Esprit d'équipe",
+      "Empatie et Ecoute",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Gestion du Temps",
+      "Organisation",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "B2",
+        certification: "",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "B1",
+        certification: "",
+        experience: "",
+      },
+    ],
+    interests: ["Les voyages", "La cuisine", "La nature", "Les sports"],
+  },
+  {
+    profile: {
+      photo: "./images/El Houari Imane.png",
+      firstName: "Imane",
+      lastName: "El Houari",
+      birthday: {
+        day: 29,
+        month: 03,
+        year: 2002,
+      },
+      phone: "0658843025",
+      email: "imanelhouari0000@gmail.com",
+      address: "Av Beyrout Rue Namsa Fès",
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+            sur les architectures logicielles et les nouvelles technologies informatique, 
+            en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+            Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+            avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+            en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+            et les membres de l'équipe.
+        `,
+      links: [
+        "https://www.linkedin.com/in/imane-el-houari-a37652253",
+        "https://github.com/imaaaaneeeee",
+      ],
+    },
+    education: [
+      {
+        diploma: "Master MQL",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2023,
+      },
+      {
+        diploma: "Licence SMI",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2022,
+      },
+      {
+        diploma: "DEUG SMI",
+        organisation: "FSDM - Université Sidi Mohammed ben Abdellah - Fès",
+        year: 2021,
+      },
+      {
+        diploma: "Baccalauréat en science mathématique",
+        organisation: "Ecole Oum Al Quora Fès",
+        year: 2019,
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "CGI - Fès",
+        title: "",
+        technologies: ["Spring Boot", "React", "Node.js"],
+        year: 2023,
+        duration: "4 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "FSDM",
+        title: "Réalisation d'une application de Gestion de CVs",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        year: 2023,
+        duration: "1 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Intelligence Emotionnelle",
+      "Adaptabilité",
+      "Organisation",
+      "Présence",
+    ],
+    languages: [
+      {
+        language: "Français",
+        level: "A1", // voir le "Common European Framework of Reference for Languages" (CEFR)
+        certification: "DELF",
+        experience: "",
+      },
+      {
+        language: "Anglais",
+        level: "A1",
+        certification: "TOEFL",
+        experience: "",
+      },
+    ],
+    interests: ["Dessin", "peinture"],
+  },
+  {
+    profile: {
+      photo: "./images/EL haracha Raouia.jpg",
+      firstName: "raouia",
+      lastName: "el haracha",
+      birthday: {
+        day: 15,
+        month: 10,
+        year: 2001,
+      },
+      phone: "0639123436",
+      email: "raouiaharacha@gmail.com",
+      address: "48 Bloc 6 Ain Drissi S.ouard, Fes, Maroc",
+
+      professionalSummary: `Ingénieur en informatique avec une bonne expérience 
+              sur les architectures logicielles et les nouvelles technologies informatique, 
+              en l'occurence Jakarta EE, Spring Boot, React et Angular. 
+              Expérimenté dans la gestion de projets agiles, planification, exécution et coordination des tâches 
+              avec des équipes multifonctionnelles. Disposant des compétences requises en communication et 
+              en résolution de problèmes avec un esprit ouvert en collaboration efficace avec les parties prenantes 
+              et les membres de l'équipe`,
+      links: [
+        "https://github.com/Raouiaelharacha",
+        "https://www.linkedin.com/in/raouia-el-haracha-abbb55232/",
+      ],
+    },
+    education: [
+      {
+        diploma: "1ére année master qualité du logiciel (MQL)",
+        organisation: "Faculté des sciences dhar el mehraz, Fès",
+        year: "2022 - 2023",
+      },
+      {
+        diploma: "Licence  science et technique en informatique",
+        organisation: "Faculté des sciences et techniques,Tanger",
+        year: "2022 - 2021 ",
+      },
+      {
+        diploma: "Deust en mathématiques informatique physique chimie",
+        organisation: "Faculté des sciences et techniques,Tanger",
+        year: "2021 - 2020",
+      },
+      {
+        diploma: "Baccalauréat en sciences physiques et chimiques",
+        organisation: "Lycée abdellah chefchaouni, Fès",
+        year: "2020 - 2019",
+      },
+    ],
+    technologySkills: [
+      {
+        skill: "Jakarta Entreprise Edition (JEE)",
+        details: [
+          "Architecture 3 tiers",
+          "Modèle MVC2",
+          "Servlets et JSP",
+          "modèle DAO",
+          "Framework Spring / Spring Boot",
+          "JPA",
+          "Hibernate",
+          "Administration Tomcat",
+        ],
+      },
+      {
+        skill: "Ingénierie du Web",
+        details: ["HTML", "CSS", "JavaScript", "Node.js", "React", "Angular"],
+      },
+
+      {
+        skill: "Ingénierie DevOps",
+        details: [
+          "Maven",
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Jira",
+          "Jenkins",
+          "JUnit",
+          "Selenuim",
+        ],
+      },
+      {
+        skill: "Technologie XML",
+        details: [
+          "Standard XML",
+          "Bases de données XML",
+          "Parseurs XML (DOM, SAX)",
+          "DTD",
+          "XSD (XML Schema)",
+          "XSLT",
+          "XPath",
+          "XQuery",
+        ],
+      },
+    ],
+    experiences: [
+      {
+        type: "Stage",
+        organisation: "Smart Goutte ,Tetouan",
+        title: "Développement d'une eapplication ERP",
+        technologies: ["VueJs", "MVC", "Laravel", "Php", "UML"],
+        year: " 2022 ",
+        duration: "4 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "Faculté des sciences et techniques,Tanger",
+        title: "Projet E-commerce",
+        technologies: ["HTML", "CSS", "Bootstrap", "XML", "MVC"],
+        year: "2022",
+        duration: "1 mois",
+      },
+      {
+        type: "Projet",
+        organisation: "Faculté des sciences et techniques,Tanger",
+        title: "Développement d'un Jeux 2D Roller Splat",
+        technologies: ["Cocos2D, C++"],
+        year: "2022",
+        duration: "4 mois",
+      },
+    ],
+    softSkills: [
+      "Communication",
+      "Esprit d'équipe",
+      "Empatie et Ecoute",
+      "Créativité",
+      "Capacité de Résolution de problèmes",
+      "Adaptabilité",
+      "Gestion du Temps",
+      "Rigueur",
+      "Gestion du Stress",
+      "Présence",
+    ],
+
+    languages: [
+      {
+        language: "Francais",
+        level: "A2",
+        certification: "DELF",
+      },
+      {
+        language: "Anglais ",
+        level: "B2",
+        certification: "TOFEL",
+      },
+    ],
+
+    interests: ["Voyage", "Sport", "Natation"],
   },
 ];
